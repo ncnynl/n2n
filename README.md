@@ -1,3 +1,26 @@
+New install method:
+-----
+
+```sh
+git clone -b v1.0 http://github.com/ncnynl/n2n
+cd n2n 
+./install.sh 
+```
+
+#start
+----
+change value of community , encryption, local_ip, remote_ip
+```sh
+./start.sh
+```
+
+#stop
+----
+
+```sh
+./stop.sh
+```
+
 # N2N
 
 N2n is a light VPN software which make it easy to create virtual networks bypassing intermediate firewalls.
